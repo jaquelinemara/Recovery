@@ -17,4 +17,4 @@ Um Recovery corresponde a uma imagem de um sistema operacional. Supondo que por 
 * Aguardar o processo de recovery ser finalizado;
 * Verificar o arquivo log.txt na pasta "LOG\log.txt" para conferir a saída do processo;
 * Os arquivos zipados estarão nas pastas "Temp\[Código do Recovery]";
-* Enviar a pasta com o arquivo compactado dentro para o servidor.
+* Transfira a pasta criada contendo o arquivo compactado para o servidor via FTP, por exemplo.
