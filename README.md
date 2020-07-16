@@ -1,11 +1,8 @@
-# Ferramenta de Automação de Recovery
+# Automação de Processo de Recovery
 
 ## Introdução
 
-```
 Um Recovery corresponde a uma imagem de um sistema operacional. Supondo que por padrão o nome desta imagem seja "CÓDIGO - DESCRIÇÃO", esta ferramenta busca a imagem em diretório específico, verifica o HASH MD5, e por fim, faz a compactação desta imagem para enviá-la a um servidor. 
-
-```
 
 ## Uso da Ferramenta
 
