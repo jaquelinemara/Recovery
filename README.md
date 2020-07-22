@@ -1,17 +1,17 @@
 # Automação de Processo de Recovery
 
-## Introdução
+## Introduction
 
-Um Recovery corresponde a uma imagem de um sistema operacional. Supondo que por padrão o nome desta imagem seja *CÓDIGO - DESCRIÇÃO*, esta ferramenta busca a imagem em diretório específico, verifica o HASH MD5, e por fim, faz a compactação desta imagem para enviá-la a um servidor. 
+A Recovery corresponds to an image of an operating system. Assuming that by default the name of this image is *CODE - DESCRIPTION*, this tool fetches the image in a specific directory, checks HASH MD5, and finally, compresses this image to send it to a server.
 
-## Uso da Ferramenta
+## Instructions
 
-* Realiar o download da ferramenta no diretório desejado;
-* Preencher o arquivo "recovery.csv":
-  * Cada linha contém um "cod" (código do recovery) e a respectiva "desc" (descrição de recovery); 
-  * Listar cada arquivo em cada linha, não deixando linhas em branco ao final, abaixo das preenchidas;
-* Executar o arquivo "Menu.BAT";
-* Aguardar o processo de recovery ser finalizado;
-* Verificar o arquivo log.txt na pasta "LOG\log.txt" para conferir a saída do processo;
-* Os arquivos zipados estarão nas pastas "Temp\[Código do Recovery]";
-* Transfira a pasta criada contendo o arquivo compactado para o servidor via FTP, por exemplo.
+* Download the tool in the desired directory;
+* Fill the "recovery.csv" file:
+  * Each line contains a "cod" (recovery code) and the respective "desc" (description of recovery);
+  * List each file on each line, leaving no blank lines at the end, below the filled ones;
+* Run the "Menu.BAT" file;
+* Wait for the recovery process to be completed;
+* Check the log.txt file in the "LOG \ log.txt" folder to check the process output;
+* The zipped files will be in the "Temp \ [Recovery Code]" folders;
+* Transfer the created folder containing the compressed file to the server via FTP, for example.
