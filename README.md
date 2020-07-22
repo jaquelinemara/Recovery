@@ -1,4 +1,4 @@
-# Automação de Processo de Recovery
+# Recovery Automation
 
 ## Introduction
 
@@ -7,11 +7,11 @@ A Recovery corresponds to an image of an operating system. Assuming that by defa
 ## Instructions
 
 * Download the tool in the desired directory;
-* Fill the "recovery.csv" file:
-  * Each line contains a "cod" (recovery code) and the respective "desc" (description of recovery);
+* Fill the *recovery.csv"* file:
+  * Each line contains a "cod" (recovery code) and the respective *desc* (description of recovery);
   * List each file on each line, leaving no blank lines at the end, below the filled ones;
-* Run the "Menu.BAT" file;
+* Run the *Menu.BAT* file;
 * Wait for the recovery process to be completed;
-* Check the log.txt file in the "LOG \ log.txt" folder to check the process output;
-* The zipped files will be in the "Temp \ [Recovery Code]" folders;
+* Check the log.txt file in the *LOG \ log.txt* folder to check the process output;
+* The zipped files will be in the *Temp \ [Recovery Code]* folders;
 * Transfer the created folder containing the compressed file to the server via FTP, for example.
